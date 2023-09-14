@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>boekingsformulier </h1>
+    <form>
+
+    <div>
+        <label for="voornaam">voornaam:</label>
+        <input type="text" id="voornaam" placeholder="mag geen cijfers bevatten" required >
+    </div>
+    <br>
+    <div>
+        <label for="achternaam">achternaam:</label>
+        <input type="text" id="achternaam" placeholder="mag geen cijfers bevatten" required >
+    </div>
+    <br>
+    
+        <input type="radio" id="man" name="man" required>
+        <label for="man">man</label>
+    <div>
+        <input type="radio" id="vrouw" name="vrouw" required>
+        <label for="vrouw">vrouw</label>
+    </div>
+    <br>
+    <div>
+        <label for="woonad">straat met huisnummer:</label>
+        <input type="text" id="woonad" required>
+    </div>
+    <br>
+    <div>
+        <label for="postcode">postcode:</label>
+        <input type="text" id="postcode" required>
+    </div>
+    <br>
+    <div>
+        <label for="stad">stad:</label>
+        <input type="text" id="stad" required>
+    </div>
+    <br>
+    <div>
+        <label for="land">land van afkomst:</label>
+        <input type="text" id="land" required>
+    </div>
+    <br>
+    <div>
+        <label for="land">vakantiebestemming:</label>
+        <select name="land" id="land" required>
+            <option value="italie">italie</option>
+            <option value="hawai">hawai</option>
+            <option value="turkije">turkije</option>
+            <option value="zwitzerland">zwitzerland</option></select>
+    </div>
+    <br>
+    <div>
+        <label for="bsn">bsn nummmer:</label>
+        <input type="number" id="bsn" maxlength="9" placeholder="niet meer dan 9 getallen" required>
+    </div>
+    <br>
+    <div>
+        <label for="datum">datum van vertrek:</label>
+        <input type="date" required>
+
+
+    </div>
+    <br>
+    <div>
+        <label for="datum">datum van aankomst:</label>
+        <input type="date" required>
+    </div>
+    <br>
+    <div>
+        <label for="aantal">aantal personen:</label>
+        <input type="aantal" placeholder="max(4)" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">email:</label>
+        <input type="email" required>
+    </div>
+    <div>
+    <label for="wachtw">wachtwoord</label>
+    <input type="password" required >
+    </div>  
+    <br> 
+    <div>
+        
+        <label  for="verz">gegevens verzenden</label>
+        <input type="submit" placeholder="gegevens verzenden" required>
+
+    </div>
+        
+        
+
+
+    
+
+    
+    </form>
+    </body>
+</html>
